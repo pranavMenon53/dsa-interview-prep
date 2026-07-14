@@ -3,7 +3,7 @@
 This document aims to take you from zero to hero in graph theory from an interview perspective
 
 # Concepts
-Concepts are covered in [Graph concepts](./graph-concepts.md)
+Concepts are covered in [Graph concepts](./Chapter-1%20graph-concepts.md)
 
 # Techniques
 

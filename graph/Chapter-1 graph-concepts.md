@@ -559,7 +559,7 @@ Graph traversal patterns can be easy to mix up because the required state change
 
 This document serves as a mental model for remembering *which traversal to use, why it works, and what additional state (visited array, recursion stack, parent, indegree, etc.) is required for each scenario.*
 
-For a detailed explanation, see: [Graph Traversals - Mental Model](./graph-traversals-mental-model.md)
+For a detailed explanation, see: [Graph Traversals - Mental Model](./Chapter-1.1%20graph-traversals-mental-model.md)
 
 ---
 
@@ -1192,4 +1192,4 @@ class Solution {
 
 # Problem list
 
-Problems are covered in [Graph problems](./graph-problem-set-v2.md)
+Problems are covered in [Graph problems](./Chapter-2%20graph-problem-set-v2.md)
