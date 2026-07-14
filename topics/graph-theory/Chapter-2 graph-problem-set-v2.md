@@ -10,7 +10,7 @@ Concepts are covered in [Graph concepts](./Chapter-1%20graph-concepts.md)
 # Problem list
 
 1. ⭐ [Minimum Genetic Mutation](https://leetcode.com/problems/minimum-genetic-mutation/description/)
-    - [YT Solution]()
+
     -
       <details>
         <summary>Click to expand code - Approach-1</summary>
@@ -259,7 +259,7 @@ Concepts are covered in [Graph concepts](./Chapter-1%20graph-concepts.md)
 
 
 2. ⭐⭐⭐ [Most Stones Removed with Same Row or Column](https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/)
-    - [YT Solution]()
+
     -
       <details>
         <summary>Click to expand code - Approach-1</summary>
@@ -382,6 +382,7 @@ Concepts are covered in [Graph concepts](./Chapter-1%20graph-concepts.md)
       }
         ```
       </details>
+
     -
       <details>
         <summary>Click to expand code - Approach-2</summary>
@@ -550,7 +551,7 @@ Concepts are covered in [Graph concepts](./Chapter-1%20graph-concepts.md)
 
 
 3. [Nearest Exit from Entrance in Maze](https://leetcode.com/problems/nearest-exit-from-entrance-in-maze/description/)
-    - [YT Solution]()
+
     -
       <details>
         <summary>Click to expand code</summary>
@@ -608,7 +609,7 @@ Concepts are covered in [Graph concepts](./Chapter-1%20graph-concepts.md)
 
 
 4. [Find if Path Exists in Graph](https://leetcode.com/problems/find-if-path-exists-in-graph/description/)
-    - [YT Solution]()
+
     -
       <details>
         <summary>Click to expand code</summary>
@@ -655,7 +656,7 @@ Concepts are covered in [Graph concepts](./Chapter-1%20graph-concepts.md)
 
 
 5. [Keys and Rooms](https://leetcode.com/problems/keys-and-rooms/description/)
-    - [YT Solution]()
+
     -
       <details>
         <summary>Click to expand code</summary>
@@ -695,7 +696,7 @@ Concepts are covered in [Graph concepts](./Chapter-1%20graph-concepts.md)
 
 
 6. [Possible Bipartition](https://leetcode.com/problems/possible-bipartition/)
-    - [YT Solution]()
+
     -
       <details>
         <summary>Click to expand code</summary>
@@ -758,7 +759,7 @@ Concepts are covered in [Graph concepts](./Chapter-1%20graph-concepts.md)
 
 
 7. ⭐⭐⭐ [Sum of Distances in Tree](https://leetcode.com/problems/sum-of-distances-in-tree/description/)
-    - [YT Solution]()
+
     -
       <details>
         <summary>Click to expand code - Approach-1</summary>
@@ -979,8 +980,9 @@ Concepts are covered in [Graph concepts](./Chapter-1%20graph-concepts.md)
         ```
       </details>
 
+
 8. ⭐ [All Paths From Source to Target](https://leetcode.com/problems/all-paths-from-source-to-target/description/)
-    - [YT Solution]()
+
     -
       <details>
         <summary>Click to expand  - Approach-1 (Avoid)</summary>
@@ -1119,7 +1121,7 @@ Concepts are covered in [Graph concepts](./Chapter-1%20graph-concepts.md)
 
 
 9. [Minimum Time to Collect All Apples in a Tree](https://leetcode.com/problems/minimum-time-to-collect-all-apples-in-a-tree/)
-    - [YT Solution]()
+
     -
       <details>
         <summary>Click to expand code - Approach-1 (best)</summary>
@@ -1180,6 +1182,7 @@ Concepts are covered in [Graph concepts](./Chapter-1%20graph-concepts.md)
       }
         ```
       </details>
+
     -
       <details>
         <summary>Click to expand code - Approach-2</summary>
@@ -1263,7 +1266,7 @@ Concepts are covered in [Graph concepts](./Chapter-1%20graph-concepts.md)
 
 
 10. [Number of Nodes in the Sub-Tree With the Same Label](https://leetcode.com/problems/number-of-nodes-in-the-sub-tree-with-the-same-label/description/)
-    - [YT Solution]()
+
     -
       <details>
         <summary>Click to expand  - Approach-1 (Good)</summary>
@@ -1338,6 +1341,7 @@ Concepts are covered in [Graph concepts](./Chapter-1%20graph-concepts.md)
       }
         ```
       </details>
+
     -
       <details>
         <summary>Click to expand - Approach-2 (Best)</summary>
@@ -1392,7 +1396,7 @@ Concepts are covered in [Graph concepts](./Chapter-1%20graph-concepts.md)
 
 
 11. ⭐ [Longest Path With Different Adjacent Characters](https://leetcode.com/problems/longest-path-with-different-adjacent-characters/description/)
-    - [YT Solution]()
+
     -
       <details>
         <summary>Click to expand code</summary>
@@ -1466,7 +1470,7 @@ Concepts are covered in [Graph concepts](./Chapter-1%20graph-concepts.md)
 
 
 12. ⭐ [Lexicographically Smallest Equivalent String](https://leetcode.com/problems/lexicographically-smallest-equivalent-string/description/)
-    - [YT Solution]()
+
     -
       <details>
         <summary>Click to expand code - Approach-1</summary>
@@ -1605,7 +1609,7 @@ Concepts are covered in [Graph concepts](./Chapter-1%20graph-concepts.md)
       </details>
 
 13. ⭐ [Number of Good Paths](https://leetcode.com/problems/number-of-good-paths/description/)
-    - [YT Solution]()
+
     - Note on approaches - Idea remains the same across all 3 approaches
       - **Approach-1**: Good algorithm, implementation can be better
       - **Approach-2**: Optimized approach-1, better written code
@@ -1991,7 +1995,7 @@ Concepts are covered in [Graph concepts](./Chapter-1%20graph-concepts.md)
 
 
 14. [Find Closest Node to Given Two Nodes](https://leetcode.com/problems/find-closest-node-to-given-two-nodes/description/)
-    - [YT Solution]()
+
     -
       <details>
         <summary>Click to expand code - Approach-1</summary>
@@ -2073,6 +2077,7 @@ Concepts are covered in [Graph concepts](./Chapter-1%20graph-concepts.md)
       }
         ```
       </details>
+
     -
       <details>
         <summary>Click to expand code - Approach-2 (better)</summary>
@@ -2126,7 +2131,7 @@ Concepts are covered in [Graph concepts](./Chapter-1%20graph-concepts.md)
 
 
 15. ⭐⭐⭐ [Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/)
-    - [YT Solution]()
+
     -
       <details>
         <summary>Click to expand code - Approach-1 (good)</summary>
@@ -2357,7 +2362,7 @@ Concepts are covered in [Graph concepts](./Chapter-1%20graph-concepts.md)
 
 
 16. [Minimum Score of a Path Between Two Cities](https://leetcode.com/problems/minimum-score-of-a-path-between-two-cities/)
-    - [YT Solution]()
+
     -
       <details>
         <summary>Click to expand code</summary>
@@ -2434,7 +2439,7 @@ Concepts are covered in [Graph concepts](./Chapter-1%20graph-concepts.md)
 
 
 17. ⭐⭐⭐ [Reorder Routes to Make All Paths Lead to the City Zero](https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/description/)
-    - [YT Solution]()
+
     -
       <details>
         <summary>Click to expand code - Approach-1</summary>
@@ -2578,7 +2583,7 @@ Concepts are covered in [Graph concepts](./Chapter-1%20graph-concepts.md)
 
 
 18. [Count Unreachable Pairs of Nodes in an Undirected Graph](https://leetcode.com/problems/count-unreachable-pairs-of-nodes-in-an-undirected-graph/description/)
-    - [YT Solution]()
+
     -
       <details>
         <summary>Click to expand code - Approach-1</summary>
@@ -2733,7 +2738,7 @@ Concepts are covered in [Graph concepts](./Chapter-1%20graph-concepts.md)
 
 
 19. ⭐ [Longest Cycle in a Graph](https://leetcode.com/problems/longest-cycle-in-a-graph/description/)
-    - [YT Solution]()
+
     -
       <details>
         <summary>Click to expand code</summary>
@@ -2799,7 +2804,7 @@ Concepts are covered in [Graph concepts](./Chapter-1%20graph-concepts.md)
 
 
 20. [Clone Graph](https://leetcode.com/problems/clone-graph/description/)
-    - [YT Solution]()
+
     -
       <details>
         <summary>Click to expand code - Approach-1</summary>
@@ -2914,6 +2919,1331 @@ Concepts are covered in [Graph concepts](./Chapter-1%20graph-concepts.md)
           }
       }
       ```
+      </details>
+
+
+21. ⭐⭐⭐❌ [Largest Color Value in a Directed Graph](https://leetcode.com/problems/largest-color-value-in-a-directed-graph/)
+
+    -
+      <details>
+        <summary>Click to expand code - Approach-1</summary>
+
+        ```java
+        /*
+            Idea:
+            - Perform DFS on the graph while detecting cycles using vis[] + pathVis[].
+            - DP State:
+                dist[node][c] = maximum count of color 'c' on any path starting from 'node'.
+            - After all children are processed, merge their DP arrays by taking the maximum
+            count for each color, then include the current node's own color.
+            - Since every node is processed once and each DP array has only 26 entries,
+            the overall complexity is O((V + E) * 26).
+
+            Cycle Detection:
+            - If a back edge is found (pathVis[]), the graph contains a cycle,
+            so no valid answer exists and return -1.
+        */
+        class Solution {
+
+            int res = -1;
+            int n;
+            char[] colours;
+            List<List<Integer>> g;
+            boolean[] vis;
+            boolean[] pathVis;
+            boolean isCyclic;
+
+            int[][] dist;
+
+            void dfs(int node)
+            {
+                vis[node] = true;
+                pathVis[node] = true;
+                int key = colours[node] - 'a';
+
+                int[] count = new int[26];
+                int[] maxPathCount = new int[26];
+                count[key]++;
+
+                res = Math.max(res, count[key]);
+
+                for(int e: g.get(node))
+                {
+                    if(!vis[e])
+                        dfs(e);
+                    else if(pathVis[e])
+                    {
+                        isCyclic = true;
+                        break;
+                    }
+
+                    for(int i = 0; i < 26; i++)
+                    {
+                        // count[i] += dist[e][i];
+                        int curNodeDist = count[i] + dist[e][i];
+                        maxPathCount[i] = Math.max(maxPathCount[i], curNodeDist);
+                        res = Math.max(res, maxPathCount[i]);
+                    }
+                }
+
+                // System.out.println("Processing for node: " + node);
+                for(int i = 0; i < 26; i++)
+                {
+                    count[i] = Math.max(count[i], maxPathCount[i]);
+                    if(count[i] == 0) continue;
+                    char ch = (char)(i + 'a');
+
+                    // System.out.println("char: " + ch + ", count: " + count[i]);
+                }
+                    // System.out.println("\n");
+
+                dist[node] = count;
+                pathVis[node] = false;
+            }
+
+            public int largestPathValue(String colors, int[][] edges) {
+
+
+                colours = colors.toCharArray();
+                n = colours.length;
+                g = new ArrayList<>();
+
+                if(edges.length == 0) return 1;
+
+                vis = new boolean[n];
+                pathVis = new boolean[n];
+                isCyclic = false;
+
+                dist = new int[n][26];
+
+                int[] indegree = new int[n];
+
+                for(int i = 0; i < n; i++)
+                    g.add(new ArrayList<>());
+
+                for(int[] e: edges)
+                {
+                    g.get(e[0]).add(e[1]);
+                    indegree[e[1]]++;
+                }
+
+                res = -1;
+                int dfsCount = 0;
+                for(int i = 0; i < n; i++)
+                {
+                    if(indegree[i] == 0 && g.get(i).size() > 0)
+                    {
+                        dfs(i);
+                        dfsCount++;
+                    }
+                }
+
+                if(isCyclic || dfsCount == 0) return -1;
+
+                return res;
+            }
+        }
+        ```
+      </details>
+
+    -
+      <details>
+        <summary>Click to expand code - Approach-2</summary>
+
+        ```java
+        /*
+            Idea:
+            - Process the graph in topological order using Kahn's algorithm.
+            - DP State:
+                dp[node][c] = maximum count of color 'c' on any path ending at 'node'.
+            - When processing a node, include its own color, then propagate its DP array
+            to all children by taking the maximum for each color.
+            - Because a node is processed only after all its parents, its DP already
+            contains the best values from every incoming path.
+            - Time Complexity: O((V + E) * 26).
+
+            Cycle Detection:
+            - If the number of processed nodes is less than n, the graph contains
+            a cycle, so return -1.
+        */
+        class Solution {
+
+            public int largestPathValue(String colors, int[][] edges) {
+
+                int n = colors.length();
+
+                ArrayList<Integer>[] graph = new ArrayList[n];
+                for (int i = 0; i < n; i++)
+                    graph[i] = new ArrayList<>();
+
+                int[] indegree = new int[n];
+
+                for (int[] e : edges) {
+                    graph[e[0]].add(e[1]);
+                    indegree[e[1]]++;
+                }
+
+                Queue<Integer> q = new LinkedList<>();
+
+                for (int i = 0; i < n; i++)
+                    if (indegree[i] == 0)
+                        q.offer(i);
+
+                int[][] dp = new int[n][26];
+
+                int visited = 0;
+                int ans = 0;
+
+                while (!q.isEmpty()) {
+
+                    int u = q.poll();
+                    visited++;
+
+                    // Include the current node's own color.
+                    int color = colors.charAt(u) - 'a';
+                    dp[u][color]++;
+
+                    ans = Math.max(ans, dp[u][color]);
+
+                    for (int v : graph[u]) {
+
+                        // Propagate the best counts to the child.
+                        for (int c = 0; c < 26; c++)
+                            dp[v][c] = Math.max(dp[v][c], dp[u][c]);
+
+                        if (--indegree[v] == 0)
+                            q.offer(v);
+                    }
+                }
+
+                return visited == n ? ans : -1;
+            }
+        }
+        ```
+      </details>
+
+    -
+      <details>
+        <summary>Click to expand code - Approach-3</summary>
+
+        ```java
+        /*
+            Idea:
+            - Run DFS while detecting cycles using vis[] and pathVis[].
+            - DP State:
+                dist[node][c] = maximum count of color 'c' on any path
+                starting from 'node'.
+            - After processing all children, merge their DP arrays by taking the
+            maximum count for each color, then increment the current node's color.
+            - The answer is the maximum value across all DP states.
+            - Time: O((V + E) * 26)
+            - Space: O(V * 26)
+        */
+        class Solution {
+
+            int n;
+            char[] colors;
+            ArrayList<Integer>[] graph;
+
+            boolean[] vis;
+            boolean[] pathVis;
+            boolean hasCycle;
+
+            int[][] dist;
+            int ans = 0;
+
+            void dfs(int u) {
+
+                vis[u] = true;
+                pathVis[u] = true;
+
+                // Merge DP from all children.
+                for (int v : graph[u]) {
+
+                    if (!vis[v]) {
+                        dfs(v);
+                        if (hasCycle) return;
+                    } else if (pathVis[v]) {
+                        hasCycle = true;
+                        return;
+                    }
+
+                    for (int c = 0; c < 26; c++)
+                        dist[u][c] = Math.max(dist[u][c], dist[v][c]);
+                }
+
+                // Include the current node's own color.
+                int color = colors[u] - 'a';
+                dist[u][color]++;
+
+                ans = Math.max(ans, dist[u][color]);
+
+                pathVis[u] = false;
+            }
+
+            public int largestPathValue(String colors, int[][] edges) {
+
+                this.colors = colors.toCharArray();
+                n = colors.length();
+
+                graph = new ArrayList[n];
+                for (int i = 0; i < n; i++)
+                    graph[i] = new ArrayList<>();
+
+                int[] indegree = new int[n];
+
+                for (int[] e : edges) {
+                    graph[e[0]].add(e[1]);
+                    indegree[e[1]]++;
+                }
+
+                vis = new boolean[n];
+                pathVis = new boolean[n];
+                dist = new int[n][26];
+
+                // Process all source components first.
+                for (int i = 0; i < n; i++) {
+                    if (indegree[i] == 0 && !vis[i])
+                        dfs(i);
+                }
+
+                // Visit any remaining disconnected components.
+                for (int i = 0; i < n; i++) {
+                    if (!vis[i])
+                        dfs(i);
+                }
+
+                return hasCycle ? -1 : ans;
+            }
+        }
+        ```
+      </details>
+
+
+22. [Similar String Groups](https://leetcode.com/problems/similar-string-groups/description/)
+
+    -
+      <details>
+        <summary>Click to expand code</summary>
+
+        ```java
+        class Solution {
+
+            class DSU{
+                int n;
+                int[] parent;
+                int[] rank;
+
+                DSU(int n)
+                {
+                    this.n = n;
+                    parent = new int[n];
+                    rank = new int[n];
+
+                    for(int i = 0; i < n; i++)
+                    {
+                        parent[i] = i;
+                        rank[i] = 1;
+                    }
+                }
+
+                int find(int x)
+                {
+                    if(parent[x] == x) return x;
+
+                    return parent[x] = find(parent[x]);
+                }
+
+                void union(int u, int v)
+                {
+                    u = find(u);
+                    v = find(v);
+
+                    if(u == v) return;
+
+                    if(rank[u] >= rank[v])
+                    {
+                        parent[v] = u;
+                        rank[u] += rank[v];
+                    }
+                    else
+                    {
+                        parent[u] = v;
+                        rank[v] += rank[u];
+                    }
+                }
+            }
+
+            int n;
+            int m;
+
+            public int numSimilarGroups(String[] strs) {
+                n = strs.length;
+                m = strs[0].length();
+
+                DSU ds = new DSU(n);
+
+                for(int i = 0; i < n; i++)
+                {
+                    for(int j = i + 1; j < n; j++)
+                    {
+                        if(isValidPair(strs[i], strs[j])) ds.union(i, j);
+                    }
+                }
+
+                HashSet<Integer> hs = new HashSet<>();
+                for(int i = 0; i < n; i++) hs.add(ds.find(i));
+
+                return hs.size();
+            }
+
+
+            // It is given that all strings are anagrams of each other, so we only need
+            // to check if they differ by exactly 2 characters or are identical.
+            boolean isValidPair(String str1, String str2)
+            {
+                int count = 0;
+
+                for(int i = 0; i < m; i++)
+                {
+                    if(str1.charAt(i) != str2.charAt(i)) count++;
+                }
+
+                return count == 0 || count == 2;
+            }
+
+        }
+        ```
+      </details>
+
+
+23. ⭐❌ [Build Array from Permutation](https://leetcode.com/problems/build-array-from-permutation/description/)
+
+    -
+      <details>
+        <summary>Click to expand code</summary>
+
+        ```java
+        class Solution {
+            public int[] buildArray(int[] nums) {
+
+                int n = nums.length;
+
+                // Encode old and new value together
+                for (int i = 0; i < n; i++) {
+                    nums[i] += (nums[nums[i]] % n) * n;
+                }
+
+                // Extract new value
+                for (int i = 0; i < n; i++) {
+                    nums[i] /= n;
+                }
+
+                return nums;
+            }
+        }
+        ```
+      </details>
+
+
+24. ⭐⭐⭐ [Checking Existence of Edge Length Limited Paths](https://leetcode.com/problems/checking-existence-of-edge-length-limited-paths/description/)
+
+    - The idea is same as Problem-13: Number of Good Paths.
+    -
+      <details>
+        <summary>Click to expand code</summary>
+
+        ```java
+        class Solution {
+
+            class DSU{
+                int n;
+                int[] parent;
+                int[] size;
+
+                DSU(int n)
+                {
+                    this.n = n;
+                    parent = new int[n];
+                    size = new int[n];
+
+                    for(int i = 0; i < n; i++)
+                    {
+                        parent[i] = i;
+                        size[i] = 1;
+                    }
+                }
+
+                int find(int x)
+                {
+                    if(parent[x] == x) return x;
+
+                    return parent[x] = find(parent[x]);
+                }
+
+                void union(int u, int v)
+                {
+                    u = find(u);
+                    v = find(v);
+
+                    if(u == v) return;
+
+                    if(size[u] >= size[v])
+                    {
+                        parent[v] = u;
+                        size[u] += size[v];
+                    }
+                    else{
+                        parent[u] = v;
+                        size[v] += size[u];
+                    }
+                }
+            }
+
+            public boolean[] distanceLimitedPathsExist(int n, int[][] edgeList, int[][] queries) {
+
+                Arrays.sort(edgeList, (a,b) -> a[2] - b[2]); // ElogE
+
+                int[][] q = new int[queries.length][4];
+                for(int i = 0; i < q.length; i++)
+                {
+                    q[i] = new int[]{
+                        queries[i][0], queries[i][1], queries[i][2], i
+                    };
+                }
+
+                Arrays.sort(q, (a,b) -> a[2] - b[2]); // QlogQ
+
+                int m = q.length;
+                boolean[] res = new boolean[m];
+
+                int j = 0;
+                DSU ds = new DSU(n);
+
+                for(int i = 0; i < m; i++)
+                {
+                    int u = q[i][0];
+                    int v = q[i][1];
+                    int limit = q[i][2];
+                    int ind = q[i][3];
+
+                    while(j < edgeList.length && edgeList[j][2] < limit)
+                    {
+                        ds.union(edgeList[j][0], edgeList[j][1]);
+                        j++;
+                    }
+
+                    res[ind] = ds.find(u) == ds.find(v);
+                }
+
+                return res;
+            }
+        }
+        ```
+      </details>
+
+
+25. ⭐ [Remove Max Number of Edges to Keep Graph Fully Traversable](https://leetcode.com/problems/remove-max-number-of-edges-to-keep-graph-fully-traversable/description/)
+
+    -
+      <details>
+        <summary>Click to expand code</summary>
+
+        ```java
+        class Solution {
+
+            class DSU{
+                int n;
+                int[] parent;
+                int[] size;
+                int components; // ⭐ This is new
+
+                DSU(int n)
+                {
+                    this.n = n;
+                    parent = new int[n + 1];
+                    size = new int[n + 1];
+                    components = n;  // ⭐ Initially, we have 'n' components
+
+                    for(int i = 1; i <= n; i++)
+                    {
+                        parent[i] = i;
+                        size[i] = 1;
+                    }
+                }
+
+                int find(int x)
+                {
+                    if(parent[x] == x) return x;
+
+                    return parent[x] = find(parent[x]);
+                }
+
+                boolean union(int u, int v)
+                {
+                    u = find(u);
+                    v = find(v);
+
+                    if(u == v) return false;
+
+                    if(size[u] < size[v])
+                    {
+                        int temp = u;
+                        u = v;
+                        v = temp;
+                    }
+
+                    parent[v] = u;
+                    size[u] += size[v];
+
+                    components--;  // ⭐ After each merge, we decrease the component count
+                    return true;
+                }
+            }
+
+            public int maxNumEdgesToRemove(int n, int[][] edges) {
+
+                Arrays.sort(edges, (a,b) -> b[0] - a[0]);
+
+                DSU alice = new DSU(n);
+                DSU bob = new DSU(n);
+
+                int nodesToDelete = 0;
+
+                for(int i = 0; i < edges.length; i++)
+                {
+                    int type = edges[i][0];
+                    int u = edges[i][1];
+                    int v = edges[i][2];
+
+                    if(type == 3)
+                    {
+                        boolean usedByAlice = alice.union(u, v);
+                        boolean usedByBob = bob.union(u, v);
+
+                        if (!usedByAlice && !usedByBob)
+                            nodesToDelete++;
+                    }
+                    else if(type == 2)
+                    {
+                        boolean usedByBob = bob.union(u, v);
+                        if(!usedByBob) nodesToDelete++;
+                    }
+                    else // alice
+                    {
+                        boolean usedByAlice = alice.union(u, v);
+                        if(!usedByAlice) nodesToDelete++;
+                    }
+                }
+
+                // This is an important check, we need to validate if
+                // Alice and Bob can reach every node.
+                // If the graph is connected, then the component count will be equal to 1
+                if(alice.components != 1 || bob.components != 1)
+                    return -1;
+
+                return nodesToDelete;
+            }
+        }
+        ```
+      </details>
+
+
+26. [Minimum Number of Vertices to Reach All Nodes](https://leetcode.com/problems/minimum-number-of-vertices-to-reach-all-nodes/description/)
+
+    -
+      <details>
+        <summary>Click to expand code</summary>
+
+        ```java
+        /*
+            Idea:
+            - In a DAG, every node with indegree 0 cannot be reached from any other node,
+            so it must be included in the answer.
+            - Every other node has at least one incoming edge and is therefore reachable
+            from some indegree 0 node.
+            - Hence, the minimum set of starting vertices is simply all nodes whose
+            indegree is 0.
+        */
+        class Solution {
+            public List<Integer> findSmallestSetOfVertices(int n, List<List<Integer>> edges) {
+
+                int[] indegree = new int[n];
+
+                for (List<Integer> edge : edges)
+                    indegree[edge.get(1)]++;
+
+                List<Integer> ans = new ArrayList<>();
+
+                for (int i = 0; i < n; i++) {
+                    if (indegree[i] == 0)
+                        ans.add(i);
+                }
+
+                return ans;
+            }
+        }
+        ```
+      </details>
+
+
+27. ⭐ [Evaluate Division](https://leetcode.com/problems/evaluate-division/description/)
+
+    -
+      <details>
+        <summary>Click to expand code - Approach-1 (Best)</summary>
+
+        ```java
+        class Solution {
+            /*
+                Idea:
+                - Treat each variable as a node and each equation as a weighted edge.
+                Example: a / b = 2 becomes
+                    a -> b (2)
+                    b -> a (1/2)
+                - For each query, perform a DFS to find any path from the source to the
+                destination while multiplying the edge weights along the path.
+                - If the destination is reached, the accumulated product is the answer.
+                Otherwise, the variables are disconnected and the answer is -1.
+
+                Complexity
+
+                    Suppose:
+
+                        V = number of variables
+                        E = number of equations
+                        Q = number of queries
+
+                    Building the graph: O(E)
+
+                    Each query performs one DFS: O(V + E)
+
+                    Overall: O(E + Q(V + E))
+
+                    Space: O(V + E)
+            */
+
+            class Pair{
+                String next;
+                double val;
+
+                Pair(String n, double v)
+                {
+                    next = n;
+                    val = v;
+                }
+            }
+
+            // character -> list of neighbours
+            Map<String, List<Pair>> g;
+
+            HashSet<String> vis;
+
+            public double[] calcEquation(List<List<String>> equations, double[] values, List<List<String>> queries) {
+                g = new HashMap<>();
+
+                for(int i = 0; i < values.length; i++)
+                {
+                    String u = equations.get(i).get(0);
+                    String v = equations.get(i).get(1);
+                    double val = values[i];
+
+                    g.computeIfAbsent(u, k -> new ArrayList<>()).add(new Pair(v, val));
+                    g.computeIfAbsent(v, k -> new ArrayList<>()).add(new Pair(u, 1/val));
+                }
+
+                int n = queries.size();
+                double[] res = new double[n];
+
+                for(int i = 0; i < n; i++)
+                {
+                    String u = queries.get(i).get(0);
+                    String v = queries.get(i).get(1);
+
+                    if(!g.containsKey(u) || !g.containsKey(v))
+                    {
+                        res[i] = -1;
+                        continue;
+                    }
+
+                    vis = new HashSet<>();
+                    res[i] = dfs(u, v, 1.0);
+                }
+
+                return res;
+            }
+
+            double dfs(String src, String dest, double curVal)
+            {
+                vis.add(src);
+
+                if(src.equals(dest)) return curVal;
+
+                for(Pair p : g.get(src))
+                {
+                    String next = p.next;
+                    double val = p.val;
+
+                    if(vis.contains(next)) continue;
+
+                    double cost = dfs(next, dest, curVal * val);
+                    if(cost != -1) return cost;
+                }
+
+                return -1;
+            }
+        }
+        ```
+      </details>
+
+    -
+      <details>
+        <summary>Click to expand code - Approach-2 (Good)</summary>
+
+        ```java
+        class Solution {
+            /*
+                Idea: use the Floyd-Warshall algorithm
+                - Map each variable to an integer and build an adjacency matrix where
+                dist[i][j] represents the ratio i / j.
+                - Initialize the given equations and their reciprocals in the matrix.
+                - Apply Floyd-Warshall:
+                    If i / k and k / j are known, then
+                        i / j = (i / k) * (k / j)
+                allowing us to derive the ratio between every pair of connected variables.
+                - Once preprocessing is complete, each query can be answered in O(1)
+                by looking up the corresponding entry in the matrix.
+            */
+
+            public double[] calcEquation(List<List<String>> equations, double[] values, List<List<String>> queries) {
+
+                // Assign an integer id to every variable
+                Map<String, Integer> id = new HashMap<>();
+
+                int idx = 0;
+
+                for (List<String> e : equations) {
+                    if (!id.containsKey(e.get(0)))
+                        id.put(e.get(0), idx++);
+
+                    if (!id.containsKey(e.get(1)))
+                        id.put(e.get(1), idx++);
+                }
+
+                int n = idx;
+
+                double[][] dist = new double[n][n];
+
+                for (int i = 0; i < n; i++) {
+                    Arrays.fill(dist[i], -1.0);
+                    dist[i][i] = 1.0;
+                }
+
+                // Build graph
+                for (int i = 0; i < equations.size(); i++) {
+                    int u = id.get(equations.get(i).get(0));
+                    int v = id.get(equations.get(i).get(1));
+
+                    dist[u][v] = values[i];
+                    dist[v][u] = 1.0 / values[i];
+                }
+
+                // Floyd-Warshall
+                for (int k = 0; k < n; k++) {
+                    for (int i = 0; i < n; i++) {
+
+                        if (dist[i][k] == -1)
+                            continue;
+
+                        for (int j = 0; j < n; j++) {
+
+                            if (dist[k][j] == -1)
+                                continue;
+
+                            // Only compute if not already known
+                            if (dist[i][j] == -1)
+                                dist[i][j] = dist[i][k] * dist[k][j];
+                        }
+                    }
+                }
+
+                double[] ans = new double[queries.size()];
+
+                for (int i = 0; i < queries.size(); i++) {
+
+                    String a = queries.get(i).get(0);
+                    String b = queries.get(i).get(1);
+
+                    if (!id.containsKey(a) || !id.containsKey(b)) {
+                        ans[i] = -1.0;
+                        continue;
+                    }
+
+                    ans[i] = dist[id.get(a)][id.get(b)];
+                }
+
+                return ans;
+            }
+        }
+        ```
+      </details>
+
+    -
+      <details>
+        <summary>Click to expand code - Approach-3 (Uses new DS - can be complicated)</summary>
+
+        ```java
+        class Solution {
+
+            class DSU {
+                Map<String, String> parent = new HashMap<>();
+                Map<String, Double> weight = new HashMap<>();
+
+                void add(String x) {
+                    if (!parent.containsKey(x)) {
+                        parent.put(x, x);
+                        weight.put(x, 1.0);
+                    }
+                }
+
+                String find(String x) {
+                    if (parent.get(x).equals(x))
+                        return x;
+
+                    String p = parent.get(x);
+                    String root = find(p);
+
+                    // x/root = (x/p) * (p/root)
+                    weight.put(x, weight.get(x) * weight.get(p));
+                    parent.put(x, root);
+
+                    return root;
+                }
+
+                void union(String a, String b, double value) {
+
+                    add(a);
+                    add(b);
+
+                    String ra = find(a);
+                    String rb = find(b);
+
+                    if (ra.equals(rb))
+                        return;
+
+                    double wa = weight.get(a);
+                    double wb = weight.get(b);
+
+                    // Attach ra under rb
+                    parent.put(ra, rb);
+
+                    // ra/rb = value * wb / wa
+                    weight.put(ra, value * wb / wa);
+                }
+
+                double query(String a, String b) {
+
+                    if (!parent.containsKey(a) || !parent.containsKey(b))
+                        return -1.0;
+
+                    String ra = find(a);
+                    String rb = find(b);
+
+                    if (!ra.equals(rb))
+                        return -1.0;
+
+                    return weight.get(a) / weight.get(b);
+                }
+            }
+
+            public double[] calcEquation(List<List<String>> equations,
+                                        double[] values,
+                                        List<List<String>> queries) {
+
+                DSU dsu = new DSU();
+
+                for (int i = 0; i < equations.size(); i++) {
+                    dsu.union(
+                        equations.get(i).get(0),
+                        equations.get(i).get(1),
+                        values[i]
+                    );
+                }
+
+                double[] ans = new double[queries.size()];
+
+                for (int i = 0; i < queries.size(); i++) {
+                    ans[i] = dsu.query(
+                        queries.get(i).get(0),
+                        queries.get(i).get(1)
+                    );
+                }
+
+                return ans;
+            }
+        }
+        ```
+      </details>
+
+    - Approach-3 uses [Weighted Union-Find](./Chapter-1.3%20Advanced%20DSU.md)
+
+
+28. ⭐⭐⭐ [Detonate the Maximum Bombs](https://leetcode.com/problems/detonate-the-maximum-bombs/description/)
+
+    -
+      <details>
+        <summary>Click to expand code</summary>
+
+        ```java
+        class Solution {
+
+            ArrayList<Integer>[] graph;
+
+            public int maximumDetonation(int[][] bombs) {
+                int n = bombs.length;
+
+                graph = new ArrayList[n];
+                for (int i = 0; i < n; i++) {
+                    graph[i] = new ArrayList<>();
+                }
+
+                // Build directed graph:
+                // i -> j if bomb i can detonate bomb j.
+                for (int i = 0; i < n; i++) {
+                    for (int j = 0; j < n; j++) {
+                        if (i != j && canDetonate(bombs[i], bombs[j])) {
+                            graph[i].add(j);
+                        }
+                    }
+                }
+
+                int res = 1;
+
+                // Try detonating every bomb as the starting point.
+                for (int i = 0; i < n; i++) {
+                    boolean[] vis = new boolean[n];
+                    res = Math.max(res, dfs(i, vis));
+                }
+
+                return res;
+            }
+
+            // Returns the number of bombs detonated starting from 'node'.
+            int dfs(int node, boolean[] vis) {
+                vis[node] = true;
+
+                int count = 1;
+
+                for (int nei : graph[node]) {
+                    if (!vis[nei]) {
+                        count += dfs(nei, vis);
+                    }
+                }
+
+                return count;
+            }
+
+            // Returns true if bomb1 can directly detonate bomb2.
+            boolean canDetonate(int[] bomb1, int[] bomb2) {
+                long x1 = bomb1[0];
+                long y1 = bomb1[1];
+                long r = bomb1[2];
+
+                long x2 = bomb2[0];
+                long y2 = bomb2[1];
+
+                long dx = x1 - x2;
+                long dy = y1 - y2;
+
+                return dx * dx + dy * dy <= r * r;
+            }
+        }
+        ```
+      </details>
+
+
+29. [Path with Maximum Probability](https://leetcode.com/problems/path-with-maximum-probability/)
+
+    -
+      <details>
+        <summary>Click to expand code</summary>
+
+        ```java
+        class Solution {
+
+            public double maxProbability(int n, int[][] edges, double[] succProb, int start, int end) {
+
+                // graph[node] = {neighbor, edgeProbability}
+                ArrayList<Pair>[] graph = new ArrayList[n];
+                for (int i = 0; i < n; i++) {
+                    graph[i] = new ArrayList<>();
+                }
+
+                for (int i = 0; i < edges.length; i++) {
+                    int u = edges[i][0];
+                    int v = edges[i][1];
+                    double p = succProb[i];
+
+                    graph[u].add(new Pair(v, p));
+                    graph[v].add(new Pair(u, p));
+                }
+
+                // Maximum probability of reaching each node.
+                double[] prob = new double[n];
+                prob[start] = 1.0;
+
+                // Max Heap: {node, probability}
+                PriorityQueue<State> pq = new PriorityQueue<>(
+                    (a, b) -> Double.compare(b.prob, a.prob)
+                );
+
+                pq.offer(new State(start, 1.0));
+
+                while (!pq.isEmpty()) {
+
+                    State curr = pq.poll();
+                    int node = curr.node;
+                    double currProb = curr.prob;
+
+                    // Lazy deletion
+                    if (currProb < prob[node])
+                        continue;
+
+                    // First time we pop 'end', we've found the maximum probability.
+                    if (node == end)
+                        return currProb;
+
+                    for (Pair next : graph[node]) {
+
+                        int nei = next.node;
+                        double newProb = currProb * next.prob;
+
+                        if (newProb > prob[nei]) {
+                            prob[nei] = newProb;
+                            pq.offer(new State(nei, newProb));
+                        }
+                    }
+                }
+
+                return 0.0;
+            }
+
+            class Pair {
+                int node;
+                double prob;
+
+                Pair(int node, double prob) {
+                    this.node = node;
+                    this.prob = prob;
+                }
+            }
+
+            class State {
+                int node;
+                double prob;
+
+                State(int node, double prob) {
+                    this.node = node;
+                    this.prob = prob;
+                }
+            }
+        }
+        ```
+      </details>
+
+
+30. [Find Eventual Safe States](https://leetcode.com/problems/find-eventual-safe-states/description/)
+
+
+    -
+      <details>
+        <summary>Click to expand code - Approach-1</summary>
+
+        ```java
+        class Solution {
+            //  TC - O(nlogn)
+
+
+            List<Integer> res;
+            boolean[] vis;
+            boolean[] isValidSafeNode;
+            int n;
+            int[][] g;
+
+            public List<Integer> eventualSafeNodes(int[][] graph) {
+                n = graph.length;
+                vis = new boolean[n];
+                isValidSafeNode = new boolean[n];
+                res = new ArrayList<>();
+                g = graph;
+
+                for(int i = 0; i < n; i++)
+                {
+                    if(vis[i]) continue;
+
+                    solve(i);
+                }
+
+                Collections.sort(res);
+
+                return res;
+            }
+
+            boolean solve(int node)
+            {
+                vis[node] = true;
+                isValidSafeNode[node] = false;
+
+                boolean isValidNode = true;
+
+                for(int e : g[node])
+                {
+                    if(vis[e]) isValidNode &= isValidSafeNode[e];
+
+                    else isValidNode &= solve(e);
+                }
+
+                if(isValidNode) res.add(node);
+
+                return isValidSafeNode[node] = isValidNode;
+            }
+        }
+        ```
+      </details>
+
+    -
+      <details>
+        <summary>Click to expand code - Approach-2</summary>
+
+        ```java
+        class Solution {
+            /*
+                Optimized approach-1.
+                This solution gets rid of sorting
+                TC - O(n)
+            */
+
+            List<Integer> res;
+            boolean[] vis;
+            boolean[] isValidSafeNode;
+            int n;
+            int[][] g;
+
+            public List<Integer> eventualSafeNodes(int[][] graph) {
+                n = graph.length;
+                vis = new boolean[n];
+                isValidSafeNode = new boolean[n];
+                res = new ArrayList<>();
+                g = graph;
+
+                for(int i = 0; i < n; i++)
+                {
+                    boolean isValidNode = false;
+
+                    if(vis[i]) isValidNode = isValidSafeNode[i];
+                    else isValidNode = solve(i);
+
+                    if(isValidNode) res.add(i);
+                }
+
+                return res;
+            }
+
+            boolean solve(int node)
+            {
+                vis[node] = true;
+                isValidSafeNode[node] = false;
+
+                boolean isValidNode = true;
+
+                for(int e : g[node])
+                {
+                    if(vis[e]) isValidNode &= isValidSafeNode[e];
+
+                    else isValidNode &= solve(e);
+                }
+
+                return isValidSafeNode[node] = isValidNode;
+            }
+        }
+        ```
+      </details>
+
+    -
+      <details>
+        <summary>Click to expand code - Approach-3</summary>
+
+        ```java
+        class Solution {
+
+            boolean[] vis;
+            boolean[] isSafe;
+            boolean[] pathVis;
+            int v;
+
+            int[][] g;
+
+            boolean dfs(int i)
+            {
+                vis[i] = true;
+                pathVis[i] = true;
+
+                boolean isCurNodeSafe = true;
+
+                for(int e : g[i])
+                {
+                    if(!vis[e])
+                    {
+                        isCurNodeSafe = dfs(e) && isCurNodeSafe;
+                    }
+
+                    else if(pathVis[e])
+                    {
+                        isCurNodeSafe = false;
+                    }
+
+                    else{
+                        isCurNodeSafe = isCurNodeSafe && isSafe[e];
+                    }
+                }
+
+                pathVis[i] = false;
+
+                return isSafe[i] = isCurNodeSafe;
+            }
+
+            public List<Integer> eventualSafeNodes(int[][] graph) {
+
+                v = graph.length;
+                g = graph;
+
+                vis = new boolean[v];
+                isSafe = new boolean[v];
+                pathVis = new boolean[v];
+                for(int i = 0; i < v; i++)
+                {
+                    if(!vis[i])
+                    {
+                        dfs(i);
+                    }
+                }
+
+                List<Integer> res = new ArrayList<>();
+
+                for(int i = 0; i < v; i++)
+                {
+                    if(isSafe[i])
+                    {
+                        res.add(i);
+                    }
+                }
+
+                return res;
+
+
+            }
+        }
+        ```
       </details>
 
 <!--
