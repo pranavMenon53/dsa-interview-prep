@@ -24,10 +24,10 @@ The repository is organized by topic so it remains easy to navigate as it grows:
 
 - [topics/problem-solving/How to approach a DSA problem.md](topics/problem-solving/How%20to%20approach%20a%20DSA%20problem.md) - guidance on choosing the right approach for coding problems
 - [topics/arrays/Sliding window.md](topics/arrays/Sliding%20window.md) - notes on the sliding window technique
-- [topics/graph-theory/Chapter-1 graph-concepts.md](topics/graph-theory/graph/Chapter-1%20graph-concepts.md) - core graph concepts and interview-oriented explanations
-- [topics/graph-theory/Chapter-1.1 graph-traversals-mental-model.md](topics/graph-theory/graph/Chapter-1.1%20graph-traversals-mental-model.md) - mental model for graph traversals
-- [topics/graph-theory/Chapter-1.2 graph-advanced-concepts.md](topics/graph-theory/graph/Chapter-1.2%20graph-advanced-concepts.md) - advanced graph concepts
-- [topics/graph-theory/Chapter-2 graph-problem-set-v2.md](topics/graph-theory/graph/Chapter-2%20graph-problem-set-v2.md) - graph-focused problem set
+- [topics/graph-theory/Chapter-1 graph-concepts.md](topics/graph-theory/Chapter-1%20graph-concepts.md) - core graph concepts and interview-oriented explanations
+- [topics/graph-theory/Chapter-1.1 graph-traversals-mental-model.md](topics/graph-theory/Chapter-1.1%20graph-traversals-mental-model.md) - mental model for graph traversals
+- [topics/graph-theory/Chapter-1.2 graph-advanced-concepts.md](topics/graph-theory/Chapter-1.2%20graph-advanced-concepts.md) - advanced graph concepts
+- [topics/graph-theory/Chapter-2 graph-problem-set-v2.md](topics/graph-theory/Chapter-2%20graph-problem-set-v2.md) - graph-focused problem set
 - [scripts/format.py](scripts/format.py) - utility script for converting markdown image syntax into HTML
 
 ## How to Use
