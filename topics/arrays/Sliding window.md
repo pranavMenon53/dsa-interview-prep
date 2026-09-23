@@ -1,9 +1,9 @@
 
 # Sliding window
 
-## Templates
+# Templates
 
-### Template-1 (consume, validate, process & increment)
+## Template-1 (consume, validate, process & increment)
 - Most questions can be solved using this pattern.
 
 ```java
@@ -31,7 +31,8 @@ int func(int[] nums)
     return res;
 }
 ```
-### Template-2 (validate, consume, process & increment)
+
+## Template-2 (validate, consume, process & increment)
 - Most questions can be solved using this pattern.
 
 ```java
@@ -61,9 +62,9 @@ int func(int[] nums)
 }
 ```
 
-## Problem identification
+# Problem identification
 
-- In sliding window, there are scenarios where the window size id defined in the question.
+- In sliding window, there are scenarios where the window size is defined in the question.
 - The key terms to look at is "subarray" or "substring".
 - But, in some cases, we need to define the window size ourselves.
     - Ex - Problem 14
@@ -72,7 +73,7 @@ int func(int[] nums)
     - Deque - to find min and max element in the window in constant time
 
 
-## Problem list
+# Problem list
 
 1. [Count Occurrences of Anagrams](https://www.geeksforgeeks.org/problems/count-occurences-of-anagrams5839/1)
 	- [YT solution](https://www.youtube.com/watch?v=mrUBUWb23hk&list=PLpIkg8OmuX-J2Ivo9YdY7bRDstPPTVGvN)
@@ -3676,14 +3677,14 @@ int func(int[] nums)
 
 
 
-## Legend
+# Legend
 ```
 ⭐ - imp problem
 ❌ - Did not understand/solve
 ```
 
 
-## Useful links
+# Useful links
 - [How To Solve ANY Array Problem](https://leetcode.com/discuss/post/8356889/how-to-solve-any-array-problem-prefix-su-dji5/)
 - [How To Solve ANY Two Pointers Problem](https://leetcode.com/discuss/post/8358735/how-to-solve-any-two-pointers-problem-op-7o1r/)
 - [How To Solve ANY Trie Problem](https://leetcode.com/discuss/post/8354916/how-to-solve-any-trie-problem-step-by-st-cbvu/)
@@ -3713,9 +3714,8 @@ Array
 HashSet/HashMap
 -->
 
-## Bitwise techniques
+# Bitwise techniques
 
 - a | b will result in a number >= max(a, b)
 - a & b will result in a number <= min(a, b)
 - a ^ a = 0
--
