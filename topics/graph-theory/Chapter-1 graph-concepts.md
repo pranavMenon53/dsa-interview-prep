@@ -345,6 +345,121 @@ So:
 
 ---
 
+### Practice problem
+
+- [Topological Sort - GFG](https://www.geeksforgeeks.org/problems/topological-sort/1)
+
+- Here, we collect the toposort sequence
+
+-
+    <details>
+        <summary>BFS - Click to expand code</summary>
+
+    ```java
+    class Solution {
+
+        int v;
+        ArrayList<ArrayList<Integer>> g;
+        int[] indegree;
+
+        public ArrayList<Integer> topoSort(int V, int[][] edges) {
+            v = V;
+            g = new ArrayList<>();
+
+            indegree = new int[v];
+
+            for(int i = 0; i < v; i++) g.add(new ArrayList<>());
+
+            for(int[] e: edges)
+            {
+                g.get(e[0]).add(e[1]);
+                indegree[e[1]]++;
+            }
+
+            Queue<Integer> q = new ArrayDeque<Integer>();
+
+            for(int i = 0; i < v; i++)
+            {
+                if(indegree[i] == 0) q.offer(i);
+            }
+
+            ArrayList<Integer> res = new ArrayList<Integer>();
+
+            while(q.size() > 0)
+            {
+                int node = q.poll();
+
+                for(int e : g.get(node))
+                {
+                    indegree[e]--;
+                    if(indegree[e] == 0) q.offer(e);
+                }
+
+                res.add(node);
+            }
+
+            return res;
+        }
+    }
+    ```
+
+    </details>
+
+
+-
+    <details>
+        <summary>DFS - Click to expand code</summary>
+
+    ```java
+    class Solution {
+
+        int v;
+        ArrayList<ArrayList<Integer>> g;
+        int[] indegree;
+        ArrayList<Integer> res;
+        boolean[] vis;
+
+        public ArrayList<Integer> topoSort(int V, int[][] edges) {
+            v = V;
+            g = new ArrayList<>();
+            res = new ArrayList<Integer>();
+            vis = new boolean[v];
+            indegree = new int[v];
+
+            for(int i = 0; i < v; i++) g.add(new ArrayList<>());
+
+            for(int[] e: edges)
+            {
+                g.get(e[0]).add(e[1]);
+                indegree[e[1]]++;
+            }
+
+            for(int i = 0; i < v; i++)
+            {
+                if(indegree[i] == 0 && !vis[i]) dfs(i);
+            }
+
+            return res;
+        }
+
+        void dfs(int node)
+        {
+            vis[node] = true;
+            res.add(node);
+            for(int e : g.get(node))
+            {
+                indegree[e]--;
+                if(indegree[e] == 0)
+                    dfs(e);
+            }
+        }
+    }
+    ```
+
+    </details>
+
+---
+
 ## Cycle Detection in Undirected Graph
 
 **Problem**
@@ -467,6 +582,28 @@ class Solution {
 
         return false;
     }
+
+/*
+    // Alternative DFS solution
+
+    boolean dfs(int node, int par)
+    {
+        vis[node] = true;
+        boolean isCyclic = false;
+
+        for(int e : g[node])
+        {
+            if(e == par) continue;
+
+            if(!vis[e])
+                isCyclic |= dfs(e, node);
+            else
+                return true;
+        }
+
+        return isCyclic;
+    }
+*/
 }
 ```
 
@@ -553,6 +690,11 @@ class Solution {
 
 ---
 
+### Practice Problem
+- [Undirected Graph Cycle](https://www.geeksforgeeks.org/problems/detect-cycle-in-an-undirected-graph/1)
+
+---
+
 ## Graph Traversal Deep Dive
 
 Graph traversal patterns can be easy to mix up because the required state changes depending on whether the graph is **directed** or **undirected**, and whether the goal is **traversal**, **cycle detection**, or **topological sorting**.
@@ -622,6 +764,80 @@ class Solution {
 
 </details>
 
+---
+
+#### Practice Problem
+
+- [Shortest Path in Unweighted Graph](https://www.geeksforgeeks.org/problems/shortest-path-in-undirected-graph-having-unit-distance/1)
+-
+    <details>
+    <summary>Click to expand code</summary>
+
+    ```java id="c73nm1"
+    class Solution {
+
+        int n;
+        ArrayList<Integer>[] g;
+
+        public int shortestPath(int V, int[][] edges, int src, int dest) {
+
+            n = V;
+            g = new ArrayList[n];
+
+            for(int i = 0; i < n; i++)
+                g[i] = new ArrayList<>();
+
+            for(int[] e : edges)
+            {
+                g[e[0]].add(e[1]);
+                g[e[1]].add(e[0]);
+            }
+
+            int MAX = Integer.MAX_VALUE;
+
+            // node, dist from source
+            Queue<int[]> q = new ArrayDeque<>();
+
+            q.offer(new int[]{src, 0});
+
+            int[] dist = new int[n];
+
+            Arrays.fill(dist, MAX);
+            dist[src] = 0;
+
+
+            while(!q.isEmpty())
+            {
+                int[] pair = q.poll();
+                int node = pair[0];
+                int distFromSrc = pair[1];
+
+                if(node == dest)
+                    return distFromSrc;
+
+                if(dist[node] != distFromSrc) continue;
+
+                for(int e : g[node])
+                {
+                    int newDist = distFromSrc + 1;
+                    if(newDist < dist[e])
+                    {
+                        q.offer(new int[]{e, newDist});
+                        dist[e] = newDist;
+                    }
+                }
+            }
+
+            return -1;
+        }
+    }
+    ```
+
+    </details>
+
+
+---
+
 ### 2. Dijkstra's Algorithm
 
 **When to use**
@@ -678,6 +894,79 @@ class Solution {
 
 </details>
 
+
+---
+
+#### Practice Problem
+
+- [Dijkstra's algo](https://www.geeksforgeeks.org/problems/implementing-dijkstra-set-1-adjacency-matrix/1)
+-
+    <details>
+    <summary>Click to expand code</summary>
+
+    ```java id="c73nm1"
+    class Solution {
+
+        int n;
+        ArrayList<Edge>[] g;
+
+        class Edge {
+
+            int node;
+            int dist;
+
+            Edge(int d, int w) {
+            node = d;
+            dist = w;
+            }
+        }
+
+        public ArrayList<Integer> dijkstra(int V, int[][] edges, int src) {
+            int MAX = Integer.MAX_VALUE;
+            n = V;
+            g = new ArrayList[n];
+            ArrayList<Integer> res = new ArrayList<>();
+
+            for (int i = 0; i < n; i++) {
+            g[i] = new ArrayList<>();
+            res.add(MAX);
+            }
+
+            for (int[] e : edges) {
+            g[e[0]].add(new Edge(e[1], e[2]));
+            g[e[1]].add(new Edge(e[0], e[2]));
+            }
+
+            PriorityQueue<Edge> pq = new PriorityQueue<>((a, b) -> a.dist - b.dist);
+            pq.offer(new Edge(src, 0));
+            res.set(src, 0);
+
+            while (!pq.isEmpty()) {
+            Edge e = pq.poll();
+            int node = e.node;
+            int distFromSrc = e.dist;
+
+            if (distFromSrc != res.get(node)) continue;
+
+            for (Edge neighbour : g[node]) {
+                int newDist = neighbour.dist + distFromSrc;
+                if (newDist < res.get(neighbour.node)) {
+                res.set(neighbour.node, newDist);
+                pq.offer(new Edge(neighbour.node, newDist));
+                }
+            }
+            }
+
+            return res;
+        }
+        }
+
+    ```
+
+    </details>
+
+---
+
 ### 3. Bellman-Ford Algorithm
 
 **When to use**
@@ -733,6 +1022,7 @@ class Solution {
 
 </details>
 
+---
 
 ### 4. Topological Sort + Relaxation (DAG only)
 
@@ -796,6 +1086,37 @@ class Solution {
 
 </details>
 
+---
+
+#### 4.1. Why does this approach work?
+
+When you pop vertices from the DFS stack, they appear in topological order. Therefore, every predecessor of a vertex is processed before that vertex.
+
+As a result, by the time you process a vertex, all possible incoming paths from its predecessors have already had a chance to update its distance.
+
+That is why a single relaxation pass is sufficient.
+
+#### 4.2. Does it work with negative Edges?
+Yes, absolutely! You can use this approach for a Directed Acyclic Graph (DAG), even when edge weights are negative.
+
+The key conditions are:
+
+* The graph must be directed and acyclic.
+
+* You must process vertices in a valid topological order.
+
+* You must relax outgoing edges only from reachable vertices.
+
+Unlike Dijkstra's algorithm, this approach does not require non-negative edge weights.
+
+#### 4.3. Interview-ready summary
+
+> This approach works because a topological ordering guarantees that every predecessor of a vertex is processed before that vertex. Consequently, when we process a vertex, all possible incoming paths from its predecessors have already been considered, allowing us to compute shortest-path distances with a single relaxation pass. Since a DAG cannot contain cycles, negative-weight edges are supported without any negative-cycle issues.
+
+**Complexity**: O(V+E) time.
+
+---
+
 ### 5. Floyd-Warshall Algorithm (All-Pairs Shortest Path)
 
 **When to use**
@@ -852,6 +1173,55 @@ class Solution {
 
 </details>
 
+---
+
+### Dijkstra vs Bellman Ford
+
+Both Dijkstra and Bellman–Ford **can be used** on graphs that contain cycles. The presence of a cycle alone does not prevent either algorithm from working.
+
+What matters is the edge weights and, for Bellman–Ford, whether a reachable negative-weight cycle exists.
+
+
+#### 1. Dijkstra
+
+Dijkstra works on directed or undirected graphs with non-negative edge weights, even if the graph contains cycles.
+
+* Positive-weight cycles: allowed.
+
+* Zero-weight cycles: allowed.
+
+* Negative-weight edges: Dijkstra is not guaranteed to produce correct shortest paths.
+
+For example, a graph with `A → B → C → A` is perfectly fine for Dijkstra if all its edge weights are non-negative.
+
+#### 2. Bellman–Ford
+
+Bellman–Ford works on directed or undirected graphs with positive, zero, or negative edge weights, provided there is no reachable negative-weight cycle that makes the shortest-path distance undefined.
+
+* Positive-weight cycles: allowed.
+
+* Zero-weight cycles: allowed.
+
+* Negative-weight edges: allowed.
+
+* Reachable negative-weight cycles: detected by Bellman–Ford; shortest-path distances for vertices affected by such cycles are unbounded below.
+
+A negative-weight cycle is a cycle whose total edge weight is less than zero.
+
+#### Quick interview cheat sheet
+
+|Graph|Dijkstra|Bellman–Ford|
+| --- | --- | --- |
+|Directed, cyclic, non-negative weights|Yes|Yes|
+|Undirected, cyclic, non-negative weights|Yes|Yes|
+|Directed, negative edges, no reachable negative cycle|Not guaranteed|Yes|
+|Undirected, negative edge|Not guaranteed|Negative cycle exists under standard walk semantics|
+|Reachable negative-weight cycle|Not guaranteed|Detects it|
+
+**Remember**: Cycles are not the problem. Negative edge weights are the problem for Dijkstra, and reachable negative-weight cycles are the problem for finite shortest-path distances in Bellman–Ford.
+
+
+---
 
 ### Interview Pattern
 
@@ -864,6 +1234,8 @@ class Solution {
 * **Need shortest paths between every pair of nodes** → **Floyd-Warshall**.
 * **Graph contains cycles?** → Use **Dijkstra** (positive weights) or **Bellman-Ford** (negative weights) instead of Topological Sort.
 * **Need to detect negative cycles** → **Bellman-Ford** (single-source) or check `dist[i][i] < 0` after **Floyd-Warshall**.
+
+---
 
 ### Choosing the Algorithm
 
@@ -891,12 +1263,16 @@ class Solution {
 1. **Prim's Algorithm**
 2. **Kruskal's Algorithm**
 
+---
+
 ### Choosing the Algorithm
 
 | Algorithm     | Idea                                                                             | Time Complexity |
 | ------------- | -------------------------------------------------------------------------------- | --------------- |
 | **Prim's**    | Grow a single tree by repeatedly adding the minimum-weight edge leaving the tree | `O(E log V)`    |
 | **Kruskal's** | Sort all edges and greedily add the smallest edge that doesn't form a cycle      | `O(E log E)`    |
+
+---
 
 ### 1. Prim's Algorithm
 
@@ -945,6 +1321,8 @@ class Solution {
 ```
 
 </details>
+
+---
 
 ### 2. Kruskal's Algorithm
 
@@ -1012,6 +1390,8 @@ class Solution {
 
 </details>
 
+---
+
 #### What if the graph is disconnected?
 If the graph is disconnected, your code returns the total weight of the Minimum Spanning Forest (MSF), not an MST.
 
@@ -1073,6 +1453,160 @@ weight[newRoot] =
 
 Now every DSU root stores the MST weight of its component, making queries like min/max/sum trivial after Kruskal completes.
 
+---
+
+### Practice problem
+
+- [Minimum Spanning Tree - GFG](https://www.geeksforgeeks.org/problems/minimum-spanning-tree/1)
+
+- Here, we collect the toposort sequence
+
+-
+    <details>
+        <summary>Prims - Click to expand code</summary>
+
+    ```java
+    class Solution {
+
+        class Edge{
+            int node;
+            int weight;
+
+            Edge(int n, int w)
+            {
+                node = n;
+                weight = w;
+            }
+        }
+
+        public int spanningTree(int V, int[][] edges) {
+            // code here
+            int n = V;
+            ArrayList<Edge>[] g = new ArrayList[n];
+
+            for(int i = 0; i < n; i++) g[i] = new ArrayList<>();
+
+            for(int[] e : edges)
+            {
+                int u = e[0];
+                int v = e[1];
+                int w = e[2];
+
+                g[u].add(new Edge(v, w));
+                g[v].add(new Edge(u, w));
+            }
+
+            int totalWeight = 0;
+
+            boolean[] inMST = new boolean[n];
+
+            PriorityQueue<Edge> pq = new PriorityQueue<>((a,b) -> a.weight - b.weight);
+
+            // node, weight
+            pq.offer(new Edge(0, 0));
+
+            while(!pq.isEmpty())
+            {
+                Edge edge = pq.poll();
+                int node = edge.node;
+                int weight = edge.weight;
+
+                if(inMST[node]) continue;
+
+                inMST[node] = true;
+                totalWeight += weight;
+
+                for(Edge e : g[node])
+                {
+                    int neighbourNode = e.node;
+                    int neighbourWeight = e.weight;
+
+                    if(!inMST[neighbourNode])
+                        pq.offer(new Edge(neighbourNode, neighbourWeight));
+                }
+            }
+
+
+            return totalWeight;
+        }
+    }
+
+    ```
+
+    </details>
+
+
+-
+    <details>
+        <summary>Kruskals - Click to expand code</summary>
+
+    ```java
+    class Solution {
+
+        int[] rank;
+        int[] par;
+
+        public int spanningTree(int V, int[][] edges) {
+            // code here
+            int n = V;
+
+            rank = new int[n];
+            par = new int[n];
+
+            for(int i = 0; i < n;  i++) par[i] = i;
+
+            Arrays.sort(edges, (a,b) -> a[2] - b[2]);
+
+            int totalWeight = 0;
+
+            for(int[] edge : edges)
+            {
+                int u = edge[0];
+                int v = edge[1];
+                int w = edge[2];
+
+                if(union(u,v))
+                {
+                    totalWeight += w;
+                }
+            }
+
+            return totalWeight;
+        }
+
+        int find(int x)
+        {
+            if(par[x] == x) return x;
+
+            return par[x] = find(par[x]);
+        }
+
+        boolean union(int x, int y)
+        {
+            x = find(x);
+            y = find(y);
+
+            if(x == y) return false;
+
+            if(rank[x] > rank[y])
+                par[y] = x;
+            else if(rank[y] > rank[x])
+                par[x] = y;
+            else{
+                par[y] = x;
+                rank[x]++;
+            }
+
+            return true;
+
+        }
+    }
+
+    ```
+
+    </details>
+
+---
 
 ### Interview Pattern
 
@@ -1085,6 +1619,7 @@ Now every DSU root stores the MST weight of its component, making queries like m
 * **Shortest Path ≠ Minimum Spanning Tree**. Shortest path minimizes the distance from a source, whereas MST minimizes the **total weight** required to connect all vertices.
 
 ---
+
 ## Diameter of a Tree
 
 **Problem**
